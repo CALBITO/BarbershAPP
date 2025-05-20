@@ -1,0 +1,63 @@
+# Core Flask dependencies
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Flask-Cors==4.0.0
+Flask-Migrate==4.0.5
+marshmallow==3.19.0
+flask-marshmallow==0.15.0
+marshmallow-sqlalchemy==0.29.0
+
+# Database
+psycopg2-binary==2.9.9
+geoalchemy2==0.14.3
+Shapely==2.0.3
+SQLAlchemy==2.0.27
+alembic==1.13.1
+
+# Authentication & Messaging
+firebase-admin==6.4.0
+
+# API and Services
+requests==2.31.0
+python-dotenv==1.0.1
+arcgis==2.2.0
+geojson==3.1.0
+
+# Testing
+pytest==8.0.1
+pytest-flask==1.3.0
+pytest-cov==4.1.0
+coverage==7.4.1
+
+# Production
+gunicorn==21.2.0
+
+# Development
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Future Development (Commented)
+# Queue Management
+# redis==5.0.1
+# celery==5.3.6
+
+# Custom Mapping Implementation
+# leaflet==1.9.4
+# folium==0.15.0
+
+# Real-time Features
+# flask-socketio==5.3.6
+# eventlet==0.33.3
+
+# Machine Learning (for recommendation system)
+# scikit-learn==1.3.0
+# pandas==2.1.0
+
+# Image Processing (for shop photos)
+# Pillow==10.0.0
+
+# Performance Monitoring
+# prometheus-client==0.17.1
+# flask-prometheus-metrics==1.0.0

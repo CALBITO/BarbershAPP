@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "setuptools>=68.0.0",
+    "wheel>=0.42.0",
+    "pip>=23.0.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barbershAPP_platform"
+version = "0.1"
+requires-python = ">=3.9"
+dependencies = [
+    "setuptools>=68.0.0"
+]
