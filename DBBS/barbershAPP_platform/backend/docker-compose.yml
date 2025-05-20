@@ -7,6 +7,7 @@ services:
       - .env.test
     environment:
       - PYTHONUNBUFFERED=1
+      - DATABASE_URL=${RENDER_DATABASE_URL}
     depends_on:
       - db
       - redis
@@ -24,6 +25,7 @@ services:
       - "5432:5432"
     environment:
       - POSTGRES_DB=barbershop_db
+      - DATA
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     volumes:

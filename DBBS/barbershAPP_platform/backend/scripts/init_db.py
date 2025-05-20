@@ -61,8 +61,8 @@ def init_database():
             logger.info(f"✅ Database '{db_name}' created")
         
         # Create user
-        db_user = os.getenv('DB_USER', 'CALBITO')
-        db_pass = os.getenv('DB_PASSWORD', 'N8t3rdvZn')
+        db_user = os.getenv('DB_USER')
+        db_pass = os.getenv('DB_PASSWORD')
         
         cur.execute(f"SELECT 1 FROM pg_roles WHERE rolname = '{db_user}'")
         if not cur.fetchone():
