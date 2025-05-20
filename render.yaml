@@ -45,5 +45,5 @@ databases:
     databaseName: barbershapp
     user: barbershapp
     ipAllowList: []
-    plan: standard
+    plan: free
 
