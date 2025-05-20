@@ -32,17 +32,15 @@ instance/
 htmlcov/
 .pytest_cache/
 .tox/
-.nox/
 
 # Database
 *.sqlite3
 *.db
 *.sql.gz
 
-# Editor/IDE
+# IDE and Editor
 .vscode/
 .idea/
-*.iml
 *.swp
 *.swo
 *~
@@ -53,31 +51,12 @@ notes.txt
 Thumbs.db
 Desktop.ini
 
-# Dependencies
-node_modules/
-bower_components/
-
-# Service specific
-celerybeat-schedule
-celerybeat.pid
-gunicorn*.log
-supervisord.pid
-*.pid
-
-# Temporary files
-*.bak
-*.tmp
-*.temp
-
 # Firebase
 .firebase/
 firebase-debug.log
-firestore-debug.log
-ui-debug.log
 **/serviceAccountKey.json
 .firebaserc
 
-
-# IDE
-.vscode/
-.idea/
+# Dependencies
+node_modules/
+bower_components/
